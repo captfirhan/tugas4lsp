@@ -6,8 +6,8 @@
 <div class="container">
     <div class="row">
         <div class="col">
-            <a href="/sneakers/create" class="btn btn-primary mb-3">Create</a>
             <h1 class="mt-2">List Of Sneakers</h1>
+            <a href="/sneakers/create" class="btn btn-primary mb-3">Create</a>
             <?php if (session()->getFlashdata('message')) : ?>
                 <div class="alert alert-success" role="alert">
                     <?= session()->getFlashdata('message'); ?>
